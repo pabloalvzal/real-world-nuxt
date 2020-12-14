@@ -36,4 +36,10 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+  /*
+  ** Customize the progress-bar color
+  * Use with a delay on dev mode to see it:
+  * json-server --watch db.json --port 4000 --delay 2000
+  */
+  loading: { color: '#39b982' },
 }
