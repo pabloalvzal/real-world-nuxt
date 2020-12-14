@@ -1,5 +1,27 @@
 # real-world-nuxt
 
+This project was geneterated with:
+```
+npx create-nuxt-app real-world-nuxt
+```
+
+Chosen options where:
+- Programming language: Typescript
+- Package manager: Yarn
+- UI framework: None
+- Nuxt.js modules: None chosen
+- Linting tools: ESLint, Prettier
+- Testing framework: Jest
+- Rendering mode: Universal (SSR / SSG)
+- Deployment target: Server (Node.js hoisting)
+- Development tools: None chosen
+- Continuous integration: None
+- Version control system: Git
+
+## Config setup
+
+Settings (`cmd + ,`) > Extensions > Vetur > "Format:Default Formater: HTML" = `none`.
+
 ## Build Setup
 
 ```bash
