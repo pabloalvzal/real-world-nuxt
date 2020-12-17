@@ -7,6 +7,11 @@ import { NuxtAxiosInstance } from '@nuxtjs/axios'
 //   }
 // }
 
+export interface StoreEventsState {
+  events: object[];
+  event: object;
+}
+
 declare module '@nuxt/types' {
   // nuxt's context.app.$ga inside asyncData, fetch, plugins, middleware, nuxtServerInit
   // interface NuxtAppOptions {
