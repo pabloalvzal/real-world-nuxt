@@ -31,6 +31,9 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
+# on a new terminal run the mock server with
+$ json-server --watch db.json --port 4000
+
 # build for production and launch server
 $ yarn build
 $ yarn start
