@@ -11,7 +11,7 @@ import { StoreEventsState } from '~/types/types';
 /**
  * state value should always be a function to avoid unwanted shared state on the server side.
  */
-const state = (): StoreEventsState => ({
+export const state = (): StoreEventsState => ({
   events: [],
   event: {},
 })
